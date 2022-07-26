@@ -35,7 +35,7 @@ function App() {
             </div>
 
             {/* Uploaded image area */}
-            <p className="font-italic text-white text-center">The image uploaded will be rendered inside the box below.</p>
+            <p className="font-italic text-dark text-center">The image uploaded will be rendered inside the box below.</p>
             <div className="image-area mt-4"><img id="imageResult" src={image} alt="" className="img-fluid rounded shadow-sm mx-auto d-block" /></div>
 
         </div>
